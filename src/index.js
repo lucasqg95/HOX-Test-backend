@@ -6,8 +6,10 @@ const cors = require('cors')
 const routes = require('./routes')
 
 const app = express();
+const PORT = process.env.PORT || 4000
+const MONGODB_URI = process.env.MONGODB_URI
 
-mongoose.connect( process.env.APP_MONGODB_ACCESS ,{
+mongoose.connect( MONGODB_URI ,{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true,
@@ -18,4 +20,4 @@ app.use(cors())
 app.use(express.json())
 app.use(routes)
 
-app.listen(4000);
+app.listen(PORT)
