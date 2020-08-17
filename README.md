@@ -50,9 +50,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CORS](https://www.npmjs.com/package/cors?activeTab=versions)
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
 - [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
-
-## Observações
-
-dotenv foi enviado apenas para o teste, o certo seria não envia-lo.
-<br>
-dotenv contendo especificação de conexão com o mongo e o secret do JWT
