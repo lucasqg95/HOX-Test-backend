@@ -7,7 +7,7 @@
 ## Funcionalidades
 <br>
 
-Autenficar usuario
+Autentificar usuario
 
 Listar, criar, editar e deletar os produtos
 
